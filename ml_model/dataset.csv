@@ -1,0 +1,42 @@
+code,length,semicolons,parentheses,label
+"x = 5 + ;",10,1,0,0
+"y = (x + 2);",15,1,2,1
+"a = 3;",7,1,0,1
+"z = ;",5,1,0,0
+"int x = 6;",11,1,0,1
+"print(x);",10,1,2,1
+"if (x > 5",9,0,1,0
+"for (int i = 0; i < 10; i++)",25,3,4,1
+"while (x > 0) { x--; }",20,3,2,1
+"else { x = 0; }",15,2,1,1
+"int[] arr = new int[10];",21,1,2,1
+"void func() { return; }",21,2,2,1
+"int sum(int a, int b) { return a + b; }",36,3,4,1
+"x == 5;",7,1,0,1
+"int i = 0; i++;",12,1,0,1
+"for (i = 0; i < n; i++)",20,2,2,1
+"if (x < 5) { x++; } else { x--; }",36,4,4,1
+"try { throw new Exception(); } catch (Exception e) { }",44,3,2,1
+"int a = 5 int b = 10;",22,1,0,0
+"void func { int x = 5; }",25,1,1,0
+"if (x > 5) { x += 1;",20,1,1,0
+"print(Hello, World);",19,1,1,0
+"boolean isEven = (x % 2 == 0);",30,1,2,1
+"double sqrt = Math.sqrt(16);",28,1,2,1
+"string s = \"Hello\";",20,1,0,1
+"if (x > 0) { x--; } else { x = 0; }",40,4,2,1
+"for (int i = 0; i < n; i++) { sum += i; }",40,3,2,1
+"public static void main(String[] args) { }",40,1,2,1
+"float sum = 0.0f;",18,1,0,1
+"String str = \"abc\" + \"def\";",25,1,2,1
+"function test() { return x; }",25,2,2,1
+"boolean check = true;",20,1,0,1
+"char c = 'a';",15,1,0,1
+"String str = \"Hello\" + \" World\";",35,2,2,1
+"if (a > b)",12,0,1,0
+"double area = pi * r * r;",25,1,0,1
+"int result = (x + y) * (a - b);",35,2,2,1
+"public class MyClass { public static void main(String[] args) {} }",58,3,2,1
+"if (a == b) { return true; } else { return false; }",50,4,2,1
+"while (n > 0) { n--; }",22,2,1,1
+
